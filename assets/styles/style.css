@@ -1,0 +1,78 @@
+
+/************************ 
+        HEADER
+************************/
+
+.left .logo{
+  width: 100px;
+}
+
+.left h1{
+  font-size: 3.5rem;
+}
+
+/************************ 
+        HEADER
+************************/
+
+/************************ 
+        MAIN
+************************/
+.main-wrapper{
+  background-color: #7fffd4;
+  height: 100vh;
+}
+
+.clicked{
+  background-color: darkorchid;
+  color: white;
+}
+
+.bomb{
+  background-color: darkred;
+  color: white;
+}
+
+
+/************************ 
+          MAIN
+************************/
+
+/************************ 
+        FOOOTER
+************************/
+
+footer{
+  height: 5vh;
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+
+}
+
+.cell{
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: cell;
+}
+
+.square100{
+  width: calc(100% / 10);
+  height: calc(100% / 10);
+}
+
+.square81{
+  width: calc(100% / 9);
+  height: calc(100% / 9);
+}
+
+.square49{
+  width: calc(100% / 7);
+  height: calc(100% / 7);
+}
